@@ -9,6 +9,5 @@ data class User (
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Int,
     val name: String,
-    val email: String,
-    val password: String
+    val email: String
 )
